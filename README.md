@@ -113,6 +113,20 @@ The test suite covers:
 
 These tests validate software behavior on the test inputs. They do not independently establish the real-world effectiveness of GRAP interventions.
 
+## Dashboard Screenshots
+
+### Overview
+![Dashboard Overview](screenshots/overview.png)
+
+### Primary Analysis
+![Primary Analysis](screenshots/primary-analysis.png)
+
+### Robustness Checks
+![Robustness Checks](screenshots/robustness.png)
+
+### Downloads
+![Downloads](screenshots/downloads.png)
+
 ## Disclaimer
 
 This project is intended for research exploration and educational demonstration. It does not establish that GRAP interventions caused a change in PM2.5 levels. Conclusions about real-world effects require suitable empirical data and a defensible research design.
