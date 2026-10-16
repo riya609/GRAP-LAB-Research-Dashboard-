@@ -97,6 +97,22 @@ Interpretation should consider the underlying data, study design, assumptions, u
 - Add reproducible evaluation and automated tests for the analysis pipeline.
 - Include clearly labelled dashboard screenshots and verified results.
 
+## Testing
+
+The project includes automated tests for key analysis-pipeline contracts and robustness behavior.
+
+Current local test result: **6 tests passed** using pytest.
+
+The test suite covers:
+- Interim data contract
+- Model-frame contract
+- Consecutive-day lag logic
+- Recovery of a planted effect in synthetic data
+- Placebo checks
+- Robustness contract
+
+These tests validate software behavior on the test inputs. They do not independently establish the real-world effectiveness of GRAP interventions.
+
 ## Disclaimer
 
 This project is intended for research exploration and educational demonstration. It does not establish that GRAP interventions caused a change in PM2.5 levels. Conclusions about real-world effects require suitable empirical data and a defensible research design.
